@@ -1,10 +1,13 @@
 <html>
 	<head><title>Web Guesser</title>
+    <style>
+      body {
+        background: <%= background %>;
+      }
+    </style>
 	</head>
 	<body>
-    <!-- <h1>
-      <%= instruction %>
-    </h1 -->
+    <h2> <%= instruction %> </h2>
 		<form>
   		<input type='text' name='guess' />
   		<input type='submit' value='Guess!' />
